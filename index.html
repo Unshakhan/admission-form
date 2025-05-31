@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+
+<body>
+    <CENTER>
+        <FIELDSET>
+            <table cellspacing="30" bgcolor="pink" border="3">
+
+                <form>
+
+                    <legend>SMIT</legend>
+                    <tr>
+                        <h1
+                            style="color: rgb(47, 8, 47);font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:400%">
+                            <CENTER><q>Admission Form</q></CENTER>
+                        </h1>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="firstname"><b>First name:</b></label>
+                            <input type="text" name="First name" maxlength="8" id="firstname" placeholder="username"required="required">
+                        </td>
+
+                        <td>
+                            <label for="Lastname"><b>Last name:</b></label>
+                            <input type="text" name="Last name" maxlength="8" id="Lastname"placeholder="fathername"required="required">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="Contact"><b>Contact:</b></label>
+                            <input type="number" name="Contact num" maxlength="11" placeholder="+92" ID="Contact"
+                                VALUE="phone number"required="required">
+                        </td>
+
+                        <td>
+                            <label for="Password"><b>Password:</b></label>
+                            <input type="password" name="password" maxlength="7"  id="Password"placeholder="abc/123"required="required">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label for="email"><b>Email:</b></label>
+                            <input type="email adress" placeholder="abc@gmail.com" id="email"required="required">
+                        </td>
+
+                        <td>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="DOB"><b>DOB:</b></label>
+                            <input type="date" name="BIRTH" id="DOB" value="date of birth"maxlength="8"required="required">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="adress"><b>Address:</b></label>
+                            <input type="adress" name="xyz" placeholder="xyz..." id="adress"required="required">
+                        </td>
+
+                        <td>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label FOR="COLOR"><b>Color:</b></label>
+                            <input type="color" name="black color" ID="COLOR" value="darkcolor">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Gender:</b>
+
+                            <input type="radio" name="Gender" value="M" id="male"checked="checked"> <label for="male"required="required">Male</label>
+                            <input type="radio" name="Gender" value="F" id="female"> <label for="female"required="required">Female</label>
+                            <input type="radio" name="Gender" value="O" id="other"><label for="other"required="required">Other</label>
+                        </td>
+
+                        <td>
+                            <label for="link"><b>Enter your link:</b></label>
+                            <input type="url" name="google link" id="link" placeholder="http//www.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Select your time:</b><br><br>
+                            <input type="checkbox" name="time" value="morning" checked="checked"id="8 to 10"><label for="8 to 10">8:00am-10:00am</label> 
+                            <input type="checkbox" name="time" value="afternoon"id="12 to 2"><label for="12 to 2">12:00pm-2:00pm</label>
+                            <input type="checkbox" name="time" value="evening"id="4 to 6"><label for="4 to 6">4:00pm-6:00pm</label>
+                        </td>
+                        <td>
+                            <textarea name="comments" rows="5" cols="25"
+                                placeholder="Enteryour comments here........"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Select your city:</b><br>
+                            <select name="city" multiple size="10">
+                                <option value="khi" selected="selected"required="required">Karachi</option>
+                                <option value="lhr" required="required">Lahore</option>
+                                <option value="hyd" selected="selected"required="required">Hyderabad</option>
+                                <option value="mlt">Multan</option>
+                                <option value="swt"required="required">Sawat</option>
+                                <option value="sk" selected="selected"required="required">Sukkur</option>
+                                <option value="lk" required="required">Larkana</option>
+                                <option value="mpk" selected="selected"required="required">Mirpurkhas</option>
+                                <option value="th">Thatta</option>
+                                <option value="khr"required="required">Khairpur</option>
+                                <option value="bd"required="required">Badin</option>
+                                <option value="jbd"required="required">Jacobabad</option>
+                            </select>
+                        </td>
+                      <td>
+                            <b>Select your Course: </b><br><br>
+                            <input type="checkbox" name="course" value="wbd" id="wbd">
+                            <label for="wbd">Web and App Development</label><br>
+                            <input type="checkbox" name="course" value="gd" id="gd"><label for="gd">Graphic Designing</label> <br>
+                            <input type="checkbox" name="course" value="tk" id="tk"required="required"><label for="tk">Techno Kides</label><br>
+                            <input type="checkbox" name="course" value="cs" id="cs"checked="checked"><label for="cs">Cyber Security</label><br>
+                            <input type="checkbox" name="course" value="ud" id="ud"><label for="ud">UI/UX Design</label> <br>
+                            <input type="checkbox" name="course" value="dm" id="dm"required="required"><label for="dm">Digital Marketing</label><br>
+                            <input type="checkbox" name="course" value="da" id="da"><label for="da">Data science and Analytics</label><br>
+                             <input type="checkbox" name="course" value="vea" id="vea"required="required"><label for="vea">Videos Editing and Animation</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>How do you know about this course?</b><br>
+                            <select name="city" multiple>
+                                <option value="social media" selected="selected"required="required">Social media platform</option>
+                                <option value="friends/family" required="required">Friend/Family recomendation</option>
+                                <option value="teacher"required="required">Teacher/Instructor</option>
+                                <option value="institute">walk-in/visited institute</option>
+                                <option value="other"required="required">Others</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            &nbsp;&nbsp;&nbsp;&nbsp;<b> Upload your pic file in pdf form
+                               </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="file" name="usersfile" size="20" multiple="multiple">&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input style="border-color: aqua;" type="submit" value="Upload" name="submit" size="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <br>
+                            <b>Subscribe to our channel for latest information and feel free to ask any question
+                                regarding admission;</b><br><br>
+                            <center> <input type="image" src="assets/images__1_-removebg-preview.png" width="150">
+                            </center>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </FIELDSET>
+    </CENTER>
+</body>
+
+</html>
